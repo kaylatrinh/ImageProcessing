@@ -1,0 +1,45 @@
+load res/rocks.ppm rocks
+load res/dock.bmp dock
+load res/mountains.jpg mountains
+load res/sunset.png sunset
+
+
+red-component rocks red
+green-component rocks green
+blue-component rocks blue
+
+luma dock luma
+intensity dock intensity
+value dock value
+
+horizontal-flip mountains horizontal
+vertical-flip mountains vertical
+
+brighten 10 rocks bright
+darken 15 rocks dark
+
+blur sunset blurred
+sharpen sunset sharpened
+
+grayscale mountains grayscaled
+sepia sunset sepia
+
+save res/red.ppm red
+save res/green.ppm green
+save res/blue.ppm blue
+
+save res/luma.png luma
+save res/intensity.png intensity
+save res/value.png value
+
+save res/horizontal.jpg horizontal
+save res/vertical.jpg vertical
+
+save res/bright.bmp bright
+save res/dark.bmp dark
+
+save res/blurred.ppm blurred
+save res/sharpened.jpg sharpened
+
+save res/grayscale.bmp grayscaled
+save res/sepia.png sepia
