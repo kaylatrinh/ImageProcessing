@@ -1,4 +1,5 @@
 # Image Processing
+### Kayla Nguyen and Brooke Chalmers
 
 ## Modifications
 
